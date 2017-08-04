@@ -11,7 +11,6 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-<<<<<<< HEAD
     ],
     script: [
       { innerHTML: `
@@ -25,9 +24,6 @@ module.exports = {
       ` }
     ],
     __dangerouslyDisableSanitizers: ['script']
-=======
-    ]
->>>>>>> 3aad838b6d9e805d4f3efd82b9f04c609a923691
   },
   /*
   ** Global CSS
