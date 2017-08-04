@@ -4,13 +4,8 @@ import { Nuxt, Builder } from 'nuxt'
 import api from './api'
 
 const app = express()
-<<<<<<< HEAD
 const host = 'localhost'
 const port = 3000
-=======
-const host = process.env.HOST || '127.0.0.1'
-const port = process.env.PORT || 3000
->>>>>>> 3aad838b6d9e805d4f3efd82b9f04c609a923691
 
 app.set('port', port)
 
