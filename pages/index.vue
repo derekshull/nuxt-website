@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
 		<div class="hero-bkg-animated">
-			<img src="../assets/img/headshot.jpg" class="header-headshot">
+			<img src="../assets/img/headshot.jpg" class="header-headshot" alt="headshot of Matt">
 			<h1>I'm a developer and entrepreneur creating delightful products and services on the web.</h1>
 		</div>
 
@@ -17,19 +17,19 @@
 
 		<section class="thirds-area" data-aos="fade-up" data-aos-once="true">
 			<div class="a-third">
-				<img class="third-icon" src="../static/icons/world.svg">
+				<img class="third-icon" src="../static/icons/world.svg" alt="icon of the world">
 				<h3>Web Apps</h3>
 				<p>I build awesome web apps with tech like push notifications, web components, and responsive design.</p>
 				<a class="cta" href="/blog">Learn More</a>
 			</div>
 			<div class="a-third" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
-				<img class="third-icon" src="../static/icons/speedometer.svg">
+				<img class="third-icon" src="../static/icons/speedometer.svg"  alt="icon of speedometer">
 				<h3>Web Performance</h3>
 				<p>#webperf is important for your users and your companies bottom line.  Let me help your team analyze and fix issues.</p>
 				<a class="cta" href="mailto:derekshull@gmail.com?Subject=Web%20Performance%20Consulting&Body=I%27m%20interested%20in%20discussing%20web%20performance%20consulting.%0A%0AMy%20website%20URL%20is%20%3Cinsert%20URL%20here%3E">Schedule Consulting</a>
 			</div>
 			<div class="a-third" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
-				<img class="third-icon" src="../static/icons/man.svg">
+				<img class="third-icon" src="../static/icons/man.svg"  alt="icon of a person">
 				<h3>Training / Speaking</h3>
 				<p>I love sharing what I've learned by speaking at conferences or teaching teams.  Get in touch for more info!</p>
 				<a class="cta" href="mailto:derekshull@gmail.com?Subject=Web%20Performance%20Consulting&Body=I%27m%20interested%20in%20discussing%20a%20training%20or%20speaking%20opportunity.%0A%0AThe%20company/event%20website%20is%20%3Cinsert%20URL%20here%3E">Let's Chat</a>

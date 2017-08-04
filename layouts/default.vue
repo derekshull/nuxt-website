@@ -5,7 +5,7 @@
 			<div class="nav-right">
 				<a class="logo-link" href="/">
 					<span class="logo-name">Matt Shull</span> 
-					<img src="~assets/img/logo-head.jpg" class="logo-head">
+					<img src="~assets/img/logo-head.jpg" class="logo-head" alt="headshot of Matt">
 				</a>
 			</div>
 		</header>
@@ -41,6 +41,13 @@ export default {
     MyFooter,
 		MsPost,
   },
+	head() {
+		return {
+			htmlAttrs: {
+        lang: 'en',
+      }
+		};
+	},
   mounted() {
 	  class Detabinator {
       constructor(element) {
